@@ -4,7 +4,9 @@
 - 🌱 I’m currently learning Computer Science Expert Subject Area: Software Development in BBQ, Hamburg, Germany.
   
 - 🌱 I’m also learning from different sources such as YouTube and Udemy like:
+  
       - Developing a Blog project with PHP and MySQL. From Youtube Chanel [Awa Melvine](https://youtu.be/fPYOhQn95fw?si=F2SuYZ2oMKJD29vC)
+  
       - Learning CSS-Master (Grid Layout, SASS, LESS, BOOTSTRAP, Flexbox, Responsive Design) From Website [Victor Robles Web](https://victorroblesweb.es/academy/)
 
 
