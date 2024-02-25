@@ -1,5 +1,6 @@
-<p align="center">### Hi there 👋 I’m Ian Manuel</p>
+### Hi there 👋 I’m Ian Manuel
 ### A beginner young developer
+***
 ***
 - 🌱 I’m currently learning Computer Science Expert Subject Area: Software Development in BBQ, Hamburg, Germany.
   
