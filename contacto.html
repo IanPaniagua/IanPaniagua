@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css">
+    <link rel="stylesheet" href="assets/fonts/poppins/poppins.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/scroll.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/loader.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+
+    <script src="assets/js/map.js" defer></script>
+    <title>Fachinformatiker Anwendungsentwicklung</title>
+</head>
+
+<body>
+    <!-- Main Layout -->
+    <div class="layout">
+        <!-- Sidebar (user info) -->
+        <aside class="layout__aside">
+            <section class="aside__user-info">
+                <!-- user info -->
+                <div class="user-info__general">
+                    <div class="user-info__container-image">
+                        <img src="assets/img/ian-foto.png" alt="user image" class="user-info__image">
+                    </div>
+                    <h2 class="user-info__name">Ian Paniagua</h2>
+                    <h4 class="user-info__job">Fachinformatiker Anwendungsentwicklung</h4>
+                </div>
+                <!-- // user info -->
+
+                <!-- menu nav -->
+                <nav class="layout__menu">
+                    <ul class="menu__list">
+                        <li class="menu__option">
+                            <a href="index.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-house "></i>
+                                <span class="menu__overlay">Home</span>
+                            </a>
+                        </li>
+                        <li class="menu__option">
+                            <a href="sobre-mi.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-user "></i>
+                                <span class="menu__overlay">Über Mich</span>
+                            </a>
+                        </li>
+                        <li class="menu__option">
+                            <a href="curriculum.html" class="menu__link  ">
+                                <i class="menu__icon fa-solid fa-graduation-cap"></i>
+                                <span class="menu__overlay">Lebenslauf</span>
+                            </a>
+                        </li>
+                        <li class="menu__option">
+                            <a href="portafolio.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-briefcase "></i>
+                                <span class="menu__overlay">Profil</span>
+                            </a>
+                        </li>
+                        <li class="menu__option">
+                            <a href="blog.html" class="menu__link ">
+                                <i class="menu__icon fa-solid fa-book "></i>
+                                <span class="menu__overlay">Blog</span>
+                            </a>
+                        </li>
+                        <li class="menu__option">
+                            <a href="contacto.html" class="menu__link menu__link--active">
+                                <i class="menu__icon fa-solid fa-envelope "></i>
+                                <span class="menu__overlay">Kontakt</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- // menu nav -->
+
+                <!-- links socialmedia -->
+                <div class="user-info__links">
+                    <ul class="links__social">
+                        <li class="social__option">
+                            <a href="https://github.com/IanPaniagua" class="social__link ">
+                                <i class="social__icon fa-brands fa-github"></i>
+                            </a>
+                        </li>
+                        <li class="social__option">
+                            <a href="https://linkedin.com/in/ian-paniagua" class="social__link ">
+                                <i class="social__icon fa-brands fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li class="social__option">
+                            <a href="https://www.facebook.com/profile.php?id=100009513131783&locale=es_LA" class="social__link ">
+                                <i class="social__icon fa-brands fa-facebook"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!--  //links socialmedia -->
+
+                <!-- button CV -->
+                <div class="user-info__buttons">
+                    <a href="assets/img/Lebenslauf-2024-IAN-Hamburg.pdf" download="Lebenslauf-2024-IAN-Hamburg" class="user-info__btn">CV herunterladen</a>
+
+                </div>
+                <!-- // button CV -->
+                <!-- footer -->
+                <footer class="user-info__footer">
+                    &copy; 2024 Ian Paniagua
+                </footer>
+                <!-- // footer -->
+            </section>
+        </aside>
+        <!-- // Sidebar (user info) -->
+
+        <!-- Content main -->
+        <main class="layout__content">
+        <section class="content__page content__contacto">
+             <header class="contacto__header">
+                <h1 class="contacto__title">Kontakt<span class="title__color"></span></h1>
+             </header>
+
+             <div class="contact__container">
+                <section class="contact__info">
+                    <div class="contact__data">
+                        <i class=" contact__icon fa-solid fa-location-dot"></i>
+                        <h2 class="contact__subtitle">Beim andreasbrunnen 6, 20249 Hamburg</h2>
+                    </div>
+                    <div class="contact__data">
+                        <i class=" contact__icon fa-solid fa-phone"></i>
+                        <h2 class="contact__subtitle">+4917610816765</h2>
+                    </div>
+                    <div class="contact__data">
+                        <i class=" contact__icon fa-solid fa-envelope"></i>
+                        <h2 class="contact__subtitle">paniagua.ian.de@gmail.com</h2>
+                    </div>
+                    <div class="contact__data">
+                        <i class=" contact__icon fa-solid fa-circle-check"></i>
+                        <h2 class="contact__subtitle">Fachinformatiker Anwendungsentwicklung</h2>
+                    </div>
+                </section>
+                <div class="contact__map" id="load-iframe-map">
+                    <span class="loader"></span>
+                </div>
+                <!-- <section class="contact__formbox">
+                    <div class="contact__map" id="load-iframe-map">
+                        <span class="loader"></span>
+                    </div>
+                    <header class="contact__form-header">
+                        <h3 class="form-header__title">Como puedo <span class="subtitle__color">ayudarte</span> ?</h3>
+                    </header>
+
+                    <form action="" class="contact__form">
+                        <div class="form__container">
+                        <section class="form__left">
+                                <div class="form__group">
+                                    <input type="text" name="name"  class="form__input" placeholder="name">
+                                    <label for="name" class="form__label">name</label>
+                                </div>
+                                <div class="form__group">
+                                    <input type="email" name="email"  class="form__input" placeholder="email">
+                                    <label for="email" class="form__label">email</label>
+                                </div>
+                                <div class="form__group">
+                                    <input type="text" name="subject"  class="form__input" placeholder="subject">
+                                    <label for="subject" class="form__label">subject</label>
+                                </div>
+                            </section>
+                            <section class="form__right">
+                                <div class="form__group form__group--textarea">
+                                    <textarea name="message" class="form__input form__input--textarea" placeholder="message" required></textarea>
+                                    <label for="message" class="form__label">message</label>
+                                </div>
+                            </section>
+                        </div>
+
+                        <input type="submit" value="enviar mensaje" class="form__button">
+
+                    </form>
+                </section> -->
+             </div>
+
+        </section>
+        </main>
+        <!--// Content main -->
+    </div>
+
+    <!-- // Main Layout -->
+</body>
+
+</html>
+
