@@ -2,7 +2,7 @@
 ### A beginner young developer
 ***
 
- 🌱 I’m currently learning Computer Science Expert Subject Area: Software Development in BBQ, Hamburg, Germany.
+ 🌱 I’m currently learning Software Development in BBQ, Hamburg, Germany.
   
  🌱 I’m also learning from different sources such as YouTube and Udemy like:
   
