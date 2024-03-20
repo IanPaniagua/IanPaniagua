@@ -266,6 +266,7 @@ h1,h2,h3,h4,h5.h6 {
 .menu__option:hover .menu__overlay{
     opacity: 1;
     right: 100%;
+    z-index: 20;
 }
 
 /* ESTILOS GENERALES (SOBRE MI / ...) */
