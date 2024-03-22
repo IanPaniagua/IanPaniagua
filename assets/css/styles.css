@@ -558,12 +558,12 @@ h1,h2,h3,h4,h5.h6 {
     border: 2px solid var(--color-principal);
     border-radius: 1rem;
 }
-.skills__percentage--p1{width: 80%;}
-.skills__percentage--p2{width: 70%;}
-.skills__percentage--p3{width: 50%;}
-.skills__percentage--p4{width: 60%;}
-.skills__percentage--p5{width: 50%;}
-.skills__percentage--p6{width: 50%;}
+.skills__percentage--p1{width: 85%;}
+.skills__percentage--p2{width: 75%;}
+.skills__percentage--p3{width: 65%;}
+.skills__percentage--p4{width: 65%;}
+.skills__percentage--p5{width: 60%;}
+.skills__percentage--p6{width: 60%;}
 .skills__percentage--p7{width: 90%;}
 
 
