@@ -1,3 +1,5 @@
+
+
 /* VARIABES */
 :root{
     --color-principal: #FFFFFF;
@@ -598,9 +600,9 @@ h1,h2,h3,h4,h5.h6 {
     flex: row;
 }
 .certificate__logo{
-    width: 15rem;
+    flex-basis: 30%;
     height: 100%;
-    padding: 2.5rem;
+    padding: 0.5rem;
     background-color: #F5F5F5;
     display: flex;
     justify-content: center;
@@ -610,7 +612,8 @@ h1,h2,h3,h4,h5.h6 {
     width: 100%;
 }
 .certificate__content{
-    padding: 2rem 2.5rem;
+    flex-basis: 60%;
+    padding: 1.2rem 0.5rem;
 }
 .certificate__title{
     font-size: 1.6rem;
@@ -619,7 +622,7 @@ h1,h2,h3,h4,h5.h6 {
 .certificate__id{
     display: block;
     margin-bottom: 0.3;
-    font-size: 1.3rem;
+    font-size: 0.7rem;
     color: var(--color-subtitle);
 }
 .certificate__date{
