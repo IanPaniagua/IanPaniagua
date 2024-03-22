@@ -1,7 +1,8 @@
-let aside;
-let iconHamburguesa;
-let iconCloseHamburguesa;
+
 document.addEventListener("DOMContentLoaded", (event) =>{
+    let aside;
+    let iconHamburguesa;
+    let iconCloseHamburguesa;
     let buttonHamburguesa = document.querySelector('.layout__menu-toggle');
     aside = document.querySelector('.layout__aside');
 
