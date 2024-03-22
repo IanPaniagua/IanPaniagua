@@ -225,6 +225,9 @@
 
 }
 @media (max-width: 585px){
+    .content__page{
+        padding: 1.5rem;
+    }
 
     .about__personal-info{
         flex-direction: column;
