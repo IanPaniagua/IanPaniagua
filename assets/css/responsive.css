@@ -59,6 +59,9 @@
     .certificate__id{
         font-size: 1.2;
     }
+    .user-info__image{
+        height: 136px;
+    }
 
 }
 
