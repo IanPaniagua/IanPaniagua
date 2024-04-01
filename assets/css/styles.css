@@ -562,11 +562,13 @@ h1,h2,h3,h4,h5.h6 {
     margin-bottom: 2.7rem;
     
 }
-.skills__title--software__list{
+.skills__title--software__list,
+.skills__title--softskills__list{
     display: block;
 
 }
-.skills__text--software--option{
+.skills__text--software--option,
+.skills__text--softskills--option{
     margin-top: 0.7rem;
     font-size: 1.3rem;
 }
@@ -592,6 +594,10 @@ h1,h2,h3,h4,h5.h6 {
 .skills__percentage--s2{width: 100%;}
 .skills__percentage--s3{width: 80%;}
 .skills__percentage--s4{width: 70%;}
+
+.resume__knowledges{
+    margin-bottom: 3rem;
+}
 
 .knowledges__list{
     display: flex;
