@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link id="theme" rel="stylesheet" href="assets/css/green.css">
+ 
+
+    <!-- slider bxslider.com -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+    <!-- Moment JS (date) -->
+    <script src="assets/momentJS/moment.min.js"></script>
+
+    <!-- JS -->
+    <script src="assets/js/main.js" defer></script>
+    <title>Blog with JS and Query</title>
+
+
+</head>
+<body>
+<!-- theme selector -->
+<div class="container__selector">
+    <div class="selector__title">
+        Choose a color Theme
+    </div>
+    <div id="selector-theme">
+        <div id="to-green"></div>
+        <div id="to-red"></div>
+        <div id="to-blue"></div>
+    </div>
+</div>
+    <section class="global">
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <h1>Projecto JS</h1>
+        </div>
+
+        <div class="clearfix"></div>
+        <nav class="menu">
+            <ul >
+                <li><a href="">Inicio</a></li>
+                <li><a href="">Reloj</a></li>
+                <li><a href="">Sobre mi</a></li>
+                <li><a href="">Inicio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Slider  -->
+    <div class="slider">
+        <div><img src="assets/img/hojas.jpg" alt="img-hojas"></div>
+        <div><img src="assets/img/rojo.jpg" alt="img-rojo"></div>
+        <div><img src="assets/img/cielo.jpg" alt="img-cielo"></div>
+    </div>
+    <!-- Contenido -->
+    <section class="content">
+        <div class="posts" id="posts">
+            <!-- cargar posts desde JSON -->
+
+        </div>
+        <aside class="sidebar">
+            <div class="about">
+                <h4><span>Quien soy?</span></h4>
+                <img src="assets/img/caracol.jpg" alt="imagen-caracol">
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo ut laboriosam quam possimus voluptatum iusto? Culpa dignissimos laborum modi enim?
+                </p>
+            </div>
+
+            <div class="login" id="login">
+                <h4><span>Identificate</span></h4>
+                <form action="">
+                <label for="name">Nombre</label>
+                <input type="text" name="name" id="form_name">
+                <label for="email">E-Mail</label>
+                <input type="email" name="email" id="form_email">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="form_password">
+
+                <input type="submit" value="Entrar">
+            </form>
+            </div>
+        </aside>
+        <div class="clearfix"></div>
+        
+    </section>
+
+</section>
+
+<footer>
+    Curso de JavaScript & Jquery &copy;
+
+
+
+    <a href="#" class="subir">Ir arriba</a>
+
+
+</footer>
+</body>
+</html>

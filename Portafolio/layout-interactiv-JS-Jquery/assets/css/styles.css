@@ -1,0 +1,248 @@
+:root{
+    --font-primary: Helvetica-arial;
+}
+*{
+    margin:0px;
+    padding: 0px;
+    list-style: none;
+}
+.clearfix{
+    float: none;
+    clear: both;
+}
+body{
+    background: url('../img/hojas.jpg');
+    background-attachment: fixed;
+}
+
+.global{
+    width: 65%;
+    margin: 0px auto;
+    margin-top: 30px;
+    background: white;
+    padding: 25px;
+    box-shadow: 0px 0px 2px gray;
+}
+.logo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 26px;
+    letter-spacing: 4px;
+    /* background-color: #235e3d; */
+    color:white;
+    text-align: center;
+    width: 385px;
+    height: 80px;
+    margin-bottom: 20px;
+    line-height: 75px;
+    text-transform: uppercase;
+
+    float: left;
+
+}
+.menu{
+    font-family: var(--font-primary);
+    background: #333;
+    width: 100%;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.menu ul{
+    line-height: 46px;
+    list-style: none;
+}
+.menu ul li{
+    height: 46px;
+    display: inline-block;
+    transition: all 300ms ease-in-out;
+}
+
+.menu a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;
+ }
+
+/* slider */
+.bx-wrapper, .bx-viewport{
+    height: 250px !important;
+}
+
+
+ .posts {
+    width: 60%;
+    float: left;
+    font-family: var(--font-primary);
+ }
+ .post{
+    padding: 7px;
+ }
+ .post h2{
+    font-size: 30px;
+    color: #333;
+
+ }
+ .post .date{
+    display: block;
+    color:gray;
+    margin-top: 5px;
+
+ }
+.post p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    line-height: 22px;
+}
+.button-more{
+    display: block;
+    width: 70px;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
+    box-shadow: 0px 1px 2px #333;
+    
+
+}
+
+.sidebar{
+    font-family: var(--font-primary);
+    width: 31%;
+    float: right;
+}
+
+.sidebar h4{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 10px;
+    color: #333;
+    background: url("../img/lines.png") repeat-x;
+
+}
+.sidebar h4 span{
+    background-color: white;
+    padding: 5px;
+}
+.sidebar img{
+    width: 100%;
+
+}
+.sidebar p{
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+form input[type= "text"],
+form input[type= "password"],
+form input[type= "email"] {
+    display: block;
+    padding: 5px;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    width: 96%;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 2px gray;
+    margin-top: 5px;
+}
+form input[type = "submit"]{
+    
+    background: #eee;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    color: #333;
+    cursor: pointer;
+    float: right;
+}
+
+footer{
+    font-family: var(--font-primary);
+    color: white;
+    height: 47px;
+    background: rgba(51, 51, 51, 0.70);
+    margin: 0px auto;
+    margin-top: 50px;
+    width: 65%;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 47px;
+
+}
+.subir{
+    color: white;
+    font-size: bold;
+    text-decoration: none;
+    display: block;
+    float: right;
+    border-radius: 1rem;
+    padding: 0.2px 2rem;
+    border: 1px solid white;
+
+}
+
+
+
+
+
+.container__selector{
+    position: fixed;
+    top: 40%;
+    height: 120px;
+    width: 153px;
+
+}
+.selector__title{
+    color: white;
+    visibility: hidden;
+}
+#selector-theme{
+    background: rgba(51,51,51,0.7);
+    opacity: 0.8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50px;
+}
+.container__selector:hover .selector__title{
+    visibility: visible;
+}
+
+#to-green,
+#to-red,
+#to-blue{
+    display: block;
+    width: 25px;
+    height: 25px;
+    border: 1px solid white;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+#to-green{
+    background-color: #235e3d;
+}
+#to-red{
+    background-color: #ca3413;
+}
+
+#to-blue{
+    background-color: #1f87c4;
+}
+#to-green:hover {
+    filter: brightness(120%);
+}
+#to-red:hover{
+    filter: brightness(120%);
+}
+
+#to-blue:hover{
+    filter: brightness(120%);
+}
+
+
+
