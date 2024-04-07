@@ -19,7 +19,7 @@ $(document).ready(function(){
 
      var posts = [
         {
-            title: 'Prueba de titulo 1',
+            title: 'Post title 1',
             date: moment().format('LLL'),
             content: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos optio aspernatur cupiditate quasi mollitia magni ullam porro voluptatibus. Dolorum sit sed eos assumenda molestiae placeat distinctio asperiores voluptate totam est? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur fuga earum exercitationem numquam nobis eaque ducimus obcaecati incidunt quam maxime. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores magni sed nesciunt tempora modi explicabo error ea veritatis! Recusandae sit beatae quae optio, itaque earum quam voluptatem repellat laboriosam odio.'
 
@@ -55,7 +55,7 @@ $(document).ready(function(){
         <h2>${item.title}</h2>
         <span class="date">${item.date}</span>
         <p>${item.content}</p>
-           <a href="#" class="button-more">Leer más</a>
+           <a href="#" class="button-more">Read more</a>
         </article>
         `;
         console.log(post);
