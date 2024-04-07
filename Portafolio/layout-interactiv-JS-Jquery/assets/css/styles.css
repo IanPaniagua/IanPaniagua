@@ -27,7 +27,6 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 26px;
     letter-spacing: 4px;
-    /* background-color: #235e3d; */
     color:white;
     text-align: center;
     width: 385px;
@@ -78,7 +77,9 @@ body{
  .post{
     padding: 7px;
  }
- .post h2{
+h2{
+    
+    font-family:var(--font-primary);
     font-size: 30px;
     color: #333;
 
@@ -138,7 +139,9 @@ body{
 }
 form input[type= "text"],
 form input[type= "password"],
-form input[type= "email"] {
+form input[type= "email"],
+form input[type= "number"],
+select{
     display: block;
     padding: 5px;
     border-radius: 2px;
@@ -160,6 +163,10 @@ form input[type = "submit"]{
 }
 
 footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
     font-family: var(--font-primary);
     color: white;
     height: 47px;
@@ -246,3 +253,55 @@ footer{
 
 
 
+
+/* ABOUT */
+
+.box{
+    width: 60%;
+    float: left;
+    margin-top: 2px;
+}
+#acordeon{
+    margin-top: 20px;
+
+}
+
+/* RELOJ */
+
+#reloj{
+    border: 1px dashed black;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    width: 30%;
+    color: #333;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 30px;
+
+}
+
+/* CONTACT */
+.form__contact{
+    width: 50%;
+    margin-top: 15px;
+    font: var(--font-primary);
+}
+.form__contact label{
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+
+}
+
+label.error {
+    color: red;
+}
+/* label.error + input.error,
+label.error + textarea.error {
+    border: 1px solid red;
+}
+label.valid + input.valid,
+label.valid + textarea.valid {
+    border: 1px solid green;
+} */

@@ -6,19 +6,17 @@
     <!-- Estilos CSS -->
     <link rel="stylesheet" href="assets/css/styles.css">
     <link id="theme" rel="stylesheet" href="assets/css/green.css">
- 
 
-    <!-- slider bxslider.com -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <link rel="stylesheet" href="assets/jquery-ui-1.13.2/jquery-ui.min.css">
+    <link rel="stylesheet" href="assets/jquery-ui-1.13.2/jquery-ui.structure.css">
+    <link rel="stylesheet" href="assets/jquery-ui-1.13.2/jquery-ui.theme.css">
 
-    <!-- Moment JS (date) -->
-    <script src="assets/momentJS/moment.min.js"></script>
+    <!-- JQuery -->
+    <script src="assets/js/jquery-3.7.1.min.js" ></script>
+    <script src="assets/jquery-ui-1.13.2/jquery-ui.min.js"></script>
 
     <!-- JS -->
-    <script src="assets/js/main.js" defer></script>
-
+    <script src="assets/js/main.js" ></script>
     <title>Blog with JS and Query</title>
 
 
@@ -43,26 +41,32 @@
         </div>
 
         <div class="clearfix"></div>
-        <nav class="menu">
-            <ul >
-                <li><a href="#">Inicio</a></li>
-                <li><a href="reloj.html">Reloj</a></li>
-                <li><a href="about.html">Sobre mi</a></li>
-                <li><a href="contact.html">Contacto</a></li>
-            </ul>
-        </nav>
+
     </header>
 
-    <!-- Slider  -->
-    <div class="slider">
-        <div><img src="assets/img/hojas.jpg" alt="img-hojas"></div>
-        <div><img src="assets/img/rojo.jpg" alt="img-rojo"></div>
-        <div><img src="assets/img/cielo.jpg" alt="img-cielo"></div>
-    </div>
+ 
     <!-- Contenido -->
     <section class="content">
-        <div class="posts" id="posts">
-            <!-- cargar posts desde JSON -->
+            <h2>Sobre mi</h2>
+
+        <!-- Acordeon -->
+        <div class="box" id="box">
+
+            <div id="acordeon">
+                <h3>Quienes somos?</h3>
+                <div>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt recusandae illum dolore nulla dicta minima, explicabo voluptas! Excepturi non voluptates deleniti ratione eos, perspiciatis sint possimus necessitatibus modi facilis? Beatae!
+                </div>
+                <h3>Nuestros servicios</h3>
+                <div>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, nesciunt. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt recusandae illum dolore nulla dicta minima, explicabo voluptas! Excepturi non voluptates deleniti ratione eos, perspiciatis sint possimus necessitatibus modi facilis? Beatae!
+                </div>
+                <h3>Nuestros clientes</h3>
+                <div>
+                   Lorem ipsum dolor sit amet. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt recusandae illum dolore nulla dicta minima, explicabo voluptas! Excepturi non voluptates deleniti ratione eos, perspiciatis sint possimus necessitatibus modi facilis? Beatae!
+                </div>
+            </div>
+
 
         </div>
         <aside class="sidebar">
@@ -99,7 +103,6 @@
 
 
 
-    <a href="#" class="subir">Ir arriba</a>
 
 
 </footer>

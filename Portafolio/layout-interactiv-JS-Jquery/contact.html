@@ -6,20 +6,23 @@
     <!-- Estilos CSS -->
     <link rel="stylesheet" href="assets/css/styles.css">
     <link id="theme" rel="stylesheet" href="assets/css/green.css">
- 
 
-    <!-- slider bxslider.com -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <link rel="stylesheet" href="assets/jquery-ui-1.13.2/jquery-ui.min.css">
+    <link rel="stylesheet" href="assets/jquery-ui-1.13.2/jquery-ui.structure.css">
+    <link rel="stylesheet" href="assets/jquery-ui-1.13.2/jquery-ui.theme.css">
 
-    <!-- Moment JS (date) -->
-    <script src="assets/momentJS/moment.min.js"></script>
+    <!-- JQuery -->
+    <script src="assets/js/jquery-3.7.1.min.js" ></script>
+    <!-- Plugin Validation (jsdelivsr.com) --> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.20.0/jquery.validate.min.js" integrity="sha512-WMEKGZ7L5LWgaPeJtw9MBM4i5w5OSBlSjTjCtSnvFJGSVD26gE5+Td12qN5pvWXhuWaWcVwF++F7aqu9cvqP0A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
 
     <!-- JS -->
-    <script src="assets/js/main.js" defer></script>
+    <script src="assets/js/main.js" ></script>
+    <script src="assets/js/validation.js"></script>
 
     <title>Blog with JS and Query</title>
+
 
 
 </head>
@@ -45,24 +48,48 @@
         <div class="clearfix"></div>
         <nav class="menu">
             <ul >
-                <li><a href="#">Inicio</a></li>
+                <li><a href="index.html">Inicio</a></li>
                 <li><a href="reloj.html">Reloj</a></li>
                 <li><a href="about.html">Sobre mi</a></li>
-                <li><a href="contact.html">Contacto</a></li>
+                <li><a href="#">Contacto</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- Slider  -->
-    <div class="slider">
-        <div><img src="assets/img/hojas.jpg" alt="img-hojas"></div>
-        <div><img src="assets/img/rojo.jpg" alt="img-rojo"></div>
-        <div><img src="assets/img/cielo.jpg" alt="img-cielo"></div>
-    </div>
+ 
     <!-- Contenido -->
     <section class="content">
-        <div class="posts" id="posts">
-            <!-- cargar posts desde JSON -->
+
+        <!-- Form Contact -->
+        <div class="box" id="box">
+            <h2>Contacto</h2>
+
+            <form action="" method="post" class="form__contact" id="validate_form">
+                <label for="name">First Name</label>
+                <input type="text" name="name" id="" required>
+
+                <label for="s-name" >Second Name</label>
+                <input type="text" name="s-name" required>
+
+                <label for="email">E-Mail</label>
+                <input type="email" name="email" required>
+
+                <label for="gender">Gender</label>
+                <select name="gender" id="">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+
+                <label for="birthdate">Birthday</label>
+                <input type="date" name="birthdate" id="" required>
+
+                <label for="age">Age</label>
+                <input type="number" name="age" id="" required>
+
+                <input type="submit" value="Send" id="btnSubmit">
+            </form>
+
+
 
         </div>
         <aside class="sidebar">
@@ -78,7 +105,7 @@
                 <h4><span>Identificate</span></h4>
                 <form action="">
                 <label for="name">Nombre</label>
-                <input type="text" name="name" id="form_name">
+                <input type="text" name="name" id="form_name" >
                 <label for="email">E-Mail</label>
                 <input type="email" name="email" id="form_email">
                 <label for="password">Password</label>
@@ -99,7 +126,6 @@
 
 
 
-    <a href="#" class="subir">Ir arriba</a>
 
 
 </footer>
