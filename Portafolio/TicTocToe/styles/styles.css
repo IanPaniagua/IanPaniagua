@@ -50,11 +50,11 @@ footer a{
 .back-to-portofolio{
     position: absolute;
     top: 10px;
-    left: 0;
+    left: 5px;
     text-decoration: none;
     background-color: rgb(247, 239, 247);
     border-radius: 2px;
-    padding: 3.5px;
+    padding: 5px 10px;
     font-size: 16px;
     font-weight: bolder;
     transition: all 300ms ease-in-out;
@@ -63,6 +63,5 @@ footer a{
     background-color: #009FDF;
     color: white;
     padding: 2px;
-    padding: 3.5px;
-
+    padding: 5px 10px;
 }
