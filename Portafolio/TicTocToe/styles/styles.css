@@ -1,16 +1,16 @@
 body {
-    margin: 0;
+    width: 60%;
+    margin: 0 auto;
     font-family: 'Open-Sans', sans-serif;
     color: rgb(44, 41, 44);
     background-color: rgb(247, 239, 247);
-   
 }
 footer {
-    position: absolute;
-    bottom: 0;
+  margin-top: 40px;
 }
 
 #main-header {
+    position: relative;
     background-color: rgb(140, 0, 255);
     color: white;
     padding: 2rem 5%;
@@ -64,4 +64,19 @@ footer a{
     color: white;
     padding: 2px;
     padding: 5px 10px;
+}
+@media (max-width: 550px){
+    #game-configuration {
+        width: 100%;
+        max-width: 40rem;
+        margin: 0;
+    }
+    #game-configuration li {
+        margin: 1rem;
+        padding: 0;
+        width: 50%;
+    }
+    #game-configuration h3 {
+      font-size: 1.2rem;
+    }
 }
