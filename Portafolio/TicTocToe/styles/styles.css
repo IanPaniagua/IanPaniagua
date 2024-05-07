@@ -64,7 +64,8 @@ footer a{
     color: white;
     padding: 2px;
     padding: 5px 10px;
-}
+} 
+/* I don't know, why it don't apply */
 @media (max-width: 550px){
     #game-configuration {
         width: 100%;
