@@ -94,14 +94,14 @@ h1,h2,h3,h4,h5.h6 {
     z-index: 1;
 }
 
-.user-info__image{
+.user-info__image {
     width: 100%;
     height: 100%;
     background-color: var(--color-principal);
-    border: 3px solid  var(--color-principal);
+    border: 3px solid var(--color-principal);
     border-radius: 50%;
-    background-size: cover;    
-    background-position: center;
+    object-fit: cover;
+    object-position: top;
 }
 /* 
 .user-info__container-image::after{
