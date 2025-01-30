@@ -1,32 +1,18 @@
-### Hi there 👋 I’m Ian Manuel
-### A beginner young developer
-***
+# Hi there 👋 I’m Ian Manuel  
 
- 🌱 I’m currently learning Software Development in BBQ, Hamburg, Germany.
-  
- 🌱 I’m also learning from different sources such as YouTube and Udemy like:
-  
- - Developing a Blog project with PHP and MySQL. From Youtube Chanel [Awa Melvine](https://youtu.be/fPYOhQn95fw?si=F2SuYZ2oMKJD29vC)
-  
- - Learning CSS-Master (Grid Layout, SASS, LESS, BOOTSTRAP, Flexbox, Responsive Design) From Website [Victor Robles Web](https://victorroblesweb.es/academy/)
+### Junior Developer | E-Commerce & Automation Enthusiast  
 
- 💬 I’m from Spain, but living in Hamburg, Germany.
+***  
 
-### Connect with me:
-- [My Linkedin](http://www.linkedin.com/in/ian-paniagua)
+🎓 I have successfully completed my **Umschulung** as a **Fachinformatiker für Anwendungsentwicklung** in Hamburg, Germany.  
+🏫 Trained at **BBQ**, with practical experience at **MAXEDV-Beratungs GmbH**.  
 
+💡 My goal is to specialize in **E-Commerce Development** and **Automation**, continuously improving my skills to create efficient and scalable solutions.  
 
-<!--
-**IanPaniagua/IanPaniagua** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### 🌱 Currently Learning & Exploring  
+- **Astro & Next.js** with **TypeScript** for modern web development  
+- **Medusa.js** for backend e-commerce solutions  
+- **Automation with Python & AWS Textract API**, including a project to process invoice emails automatically  
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 📫 Get in Touch  
+- **LinkedIn**: [Ian Paniagua](http://www.linkedin.com/in/ian-paniagua)  
