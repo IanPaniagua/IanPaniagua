@@ -12,7 +12,7 @@
 ### 🌱 Currently Learning & Exploring  
 - **React** with **TypeScript** for modern web development  
 - **JAVA** with **Spring** for backend development  
-- **Automation und AI with Python** for use the AI in real situations
+- **Python** for autonations and Artificial Intelligence
 
 ### 📫 Get in Touch  
 - **LinkedIn**: [Ian Paniagua](http://www.linkedin.com/in/ian-paniagua)
