@@ -1,17 +1,17 @@
 # Hi there 👋 I’m Ian Manuel  
 
-### Junior Developer | Administration and Finances background
+### Junior Developer | Administration and Finances background | Fullstack, Frontend focus
 
 ***  
 
 🎓 I have successfully completed my **Umschulung** as a **Fachinformatiker für Anwendungsentwicklung** in Hamburg, Germany.
 🏫 Trained at **BBQ Baumann Bildungs Qualifizierung**, with practical experience at **MAXEDV-Beratungs GmbH**.  
 
-💡  I am currently learning the programming languages and technologies that interest me the most.    
+💡 I am currently focusing on frontend development.
 
 ### 🌱 Currently Learning & Exploring  
-- **React** with **TypeScript** for modern web development  
-- **JAVA** with **Spring** for backend development  
+- **Nextjs** with **React / TypeScript** for modern web development  
+- **Astro** with **Typescript** for static websites
 - **Python** for autonations and Artificial Intelligence
 
 ### 📫 Get in Touch  
