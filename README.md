@@ -11,7 +11,7 @@
 
 ### 🌱 Currently Learning & Exploring  
 - **Nextjs** with **React / TypeScript** for modern web development  
-- **Astro** with **Typescript** for static websites
+- **Astro** with **Typescript / JavaScript** for static websites
 - **Python** for autonations and Artificial Intelligence
 
 ### 📫 Get in Touch  
