@@ -1,6 +1,6 @@
 # Hi there 👋 I’m Ian Manuel  
 
-### Junior Developer | Administration and Finances background | Fullstack, Frontend focus
+### Junior Developer | Administration and Finances background | Fullstack
 
 ***  
 
