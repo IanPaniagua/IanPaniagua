@@ -1,12 +1,11 @@
 # Hi there 👋 I’m Ian Manuel  
 
-### Junior Developer | Administration and Finances background | Fullstack
-
+### Fullstack Developer
+### Fachinformatik Anwendungsentwicklung (IHK)
 ***  
 
-🎓 I have successfully completed my **Umschulung** as a **Fachinformatiker für Anwendungsentwicklung** in Hamburg, Germany.
-🏫 Trained at **BBQ Baumann Bildungs Qualifizierung**, with practical experience at **MAXEDV-Beratungs GmbH**.  
 
+🏫 Trained at **BBQ Baumann Bildungs Qualifizierung**, with practical experience at **MAXEDV-Beratungs GmbH**.  
 
 
 ### 🌱 Experience:  
@@ -24,7 +23,8 @@
 - **Websockets**
 - **Project Management**
 - **POO**
-- 
+- **REST API**
+- **MIGRATION GRAPHQL to REST API**
 
 ### 📫 Get in Touch  
 - **LinkedIn**: [Ian Paniagua](http://www.linkedin.com/in/ian-paniagua)
