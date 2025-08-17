@@ -9,6 +9,7 @@
 
 
 ### 🌱 Experience:  
+- **React Native (Expo)**
 - **Nextjs** / **Astro**
 - **REACT**
 - **HTML** 
