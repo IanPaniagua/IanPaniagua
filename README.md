@@ -12,15 +12,14 @@
 - **React Native (Expo)**
 - **Nextjs** / **Astro**
 - **REACT**
-- **HTML** 
+- **HTML / CSS / TailwindCSS** 
 - **JavaScript / TypeScript**
 - **Node.js**
 - **JAVA**
 - **Python**
 - **AWS Textract*
 - **AWS s3**
-- **Vercel**
-- **Vite**
+- **Vercel Vite**
 - **Websockets**
 - **Project Management**
 - **POO**
