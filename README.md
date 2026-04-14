@@ -28,4 +28,4 @@
 
 ### 📫 Get in Touch  
 - **LinkedIn**: [Ian Paniagua](http://www.linkedin.com/in/ian-paniagua)
-- **Profile Website**: [ianpaniagua.dev]([https://ianpaniagua.dev/](https://ianpaniagua.dev/) 
+- **Profile Website**: [ianpaniagua.dev](https://ianpaniagua.dev/) 
